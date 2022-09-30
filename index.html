@@ -1,0 +1,111 @@
+!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portofolio Saya</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-light" data-aos="fade-down">
+	  <div class="container-fluid">
+	    <a class="navbar-brand fw-bold" href="#">Amelia Agustin</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarNav">
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link active" aria-current="page" href="#">Home</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#about-me">About Me</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#my-projects">My Project</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="#contact-me">Contact Me</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+    <header class="text-center p-4">
+        <img src="https://i.pinimg.com/originals/f7/60/71/f76071ca9691ef18a3d75dc6ddb779a1.jpg" class="rounded-circle border border-dark mb-2" width="150px" height="150px" data-aos="fade-left" data-aos-once="true">
+        <h1 data-aos="zoom-in" data-aos-delay="100">Amelia Agustin</h1>
+        <p>Pelajar</p>
+    </header>
+
+    <section id="about-me" class="text-center">
+        <h1>About Me</h1>
+        <div class="deskripsi d-flex">
+            <p class="m-4" data-aos="fade-right">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <p class="m-4" data-aos="fade-left">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+    </section>
+
+    <section id="my-projects" class="text-center">
+		<h1>My Projects</h1>
+		<div class="project d-md-flex justify-content-around p-4">
+			<div id="sub-project" class="w-100 bg-light shadow-sm rounded overflow-hidden mb-4" data-aos="fade-left">
+				<img src="https://picsum.photos/200" width="100%" height="300px">
+				<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div id="sub-project" class="w-100 bg-light shadow-sm rounded overflow-hidden mb-4" data-aos="fade-left" data-aos-delay="100">
+				<img src="https://picsum.photos/200" width="100%" height="300px">
+				<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div id="sub-project" class="w-100 bg-light shadow-sm rounded overflow-hidden mb-4" data-aos="fade-left" data-aos-delay="200">
+				<img src="https://picsum.photos/200" width="100%" height="300px">
+				<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<div id="sub-project" class="w-100 bg-light shadow-sm rounded overflow-hidden mb-4" data-aos="fade-left" data-aos-delay="400">
+				<img src="https://picsum.photos/200" width="100%" height="300px">
+				<p class="p-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</section>
+
+    <section id="contact-me">
+		<h1 class="text-center">Contact Me</h1>
+		<form class="d-flex flex-column align-items-center pb-4" data-aos="zoom-in-up" data-aos-offset="300">
+		  <div class="mb-3 w-75">
+		    <label for="nama" class="form-label text-start">Nama lengkap</label>
+		    <input type="text" class="form-control bg-light" id="nama" aria-describedby="emailHelp">
+		  </div>
+		  <div class="mb-3 w-75">
+		    <label for="email" class="form-label text-start">Email</label>
+		    <input type="email" class="form-control bg-light" id="email" aria-describedby="emailHelp">
+		  </div>
+		  <div class="mb-3 w-75">
+		    <label for="pesan" class="form-label">Pesan</label>
+		    <input type="text" class="form-control bg-light" id="pesan">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Kirim</button>
+		</form>
+	</section>
+
+	<footer class="text-center text-light mt-4 p-4 pb-2 bg-dark">
+	<p>Created with ❤️ by <span class="text-primary">Amelia Agustin</span></p>
+</footer>
+<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
